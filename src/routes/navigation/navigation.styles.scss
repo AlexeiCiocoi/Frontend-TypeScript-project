@@ -1,0 +1,26 @@
+.navigation-container {
+  max-width: 1600px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 15px 10px;
+  border: 1px solid red;
+}
+
+.navigation-logo {
+  font-family: "Explora", cursive;
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(144, 43, 198);
+}
+.nav-links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    font-size: 26px;
+    padding: 15px;
+    color: rgb(130, 39, 146);
+  }
+}
